@@ -10,4 +10,4 @@ RUN pip install -r /usr/src/requirements.txt
 COPY . /usr/src/django3
 
 EXPOSE 8000
-CMD ["python", "manage.py", "runserver", "127.0.0.1:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

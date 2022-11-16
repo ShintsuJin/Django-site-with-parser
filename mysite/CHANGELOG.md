@@ -1,4 +1,15 @@
 # ChangeLog
+
+## v1.0.3 - 16.11.2022
+
+Initial release
+
+**Added:**
++ Rebuild parser.py - now parser download images from site to my media directory
++ ChangeLog v1.0.3
++ Rebuild a few templates 
+
+
 ## v1.0.2 - 09.08.2022
 
 Initial release

@@ -16,7 +16,7 @@
     </div>
     <div class="card-body">
             {% if news_item.photo %}
-            <img src="{{ news_item.photo }}" alt="" width="350" height="250" class="float-left mr-3" align="left" style=" border: 8px solid #ffffff;"/>
+            <img src="{{ news_item.photo.url }}" alt="" width="350" height="250" class="float-left mr-3" align="left" style=" border: 8px solid #ffffff;"/>
             {% else %}
             <img src="https://picsum.photos/seed/picsum/200/300" alt="" width="350" height="250" class="float-left mr-3" align="left" style=" border: 8px solid #ffffff;"/>
             {% endif %}
